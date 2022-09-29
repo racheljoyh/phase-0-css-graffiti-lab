@@ -1,1 +1,27 @@
 /* write your override styles here */
+
+#wall .tag-1 {
+  display: none;
+}
+
+.parent #tag-5 {
+  background: url(../images/tag-5.png) no-repeat;
+    z-index: 3;
+    display: none;
+}
+
+#tag-6 {
+  
+    position: absolute;
+    top: 20;
+    left: 0;
+    width: 980px;
+    height: 622px;
+
+}
+
+.parent .slick {
+      background: url(../images/tag-7.png) no-repeat;
+    z-index: 1;
+    display: none;
+}
